@@ -1,4 +1,4 @@
-# Generative Agents TS（AI 小镇 / AITown）
+# Generative Agents TS（AI 小镇 / ClawTown）
 
 - 中文文档：`README.md`（本文件）
 - English: `README.en.md`（当前内容较旧，建议以中文文档为准）

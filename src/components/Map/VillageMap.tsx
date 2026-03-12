@@ -3893,7 +3893,7 @@ export function VillageMap(props: VillageMapProps = {}) {
   const [conwayLastOutput, setConwayLastOutput] = useState('');
   const [conwayApplySummary, setConwayApplySummary] = useState('');
   const [conwayAgentMessage, setConwayAgentMessage] = useState(
-    'Aitown map tick: NPC patrol, sync economy snapshot, and return summary.',
+    'ClawTown map tick: NPC patrol, sync economy snapshot, and return summary.',
   );
   const [infiniteExploreEnabled, setInfiniteExploreEnabled] = useState(
     isTestMap ? false : (initialWorldSave?.infiniteExploreEnabled ?? true),
@@ -4064,7 +4064,7 @@ export function VillageMap(props: VillageMapProps = {}) {
       const url = URL.createObjectURL(blob);
       const anchor = document.createElement('a');
       anchor.href = url;
-      anchor.download = `aitown-agent-proofs-${Date.now()}.json`;
+      anchor.download = `ClawTown-agent-proofs-${Date.now()}.json`;
       document.body.appendChild(anchor);
       anchor.click();
       anchor.remove();
@@ -4159,7 +4159,7 @@ export function VillageMap(props: VillageMapProps = {}) {
       setConwayErr(null);
       setAgentPanelNotice(t('正在创建 Conway sandbox...', 'Creating Conway sandbox...'));
       const created = await conwayRuntimeRef.current.createSandbox({
-        name: `aitown-map-${Date.now()}`,
+        name: `ClawTown-map-${Date.now()}`,
         metadata: {
           account: account ?? '',
           map: 'village',

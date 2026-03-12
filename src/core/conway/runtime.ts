@@ -177,10 +177,10 @@ export class ConwayRuntimeService {
     metadata?: Record<string, unknown>;
   } = {}): Promise<ConwaySandboxInfo> {
     const payload: Record<string, unknown> = {
-      name: input.name ?? `aitown-agent-${Date.now()}`,
+      name: input.name ?? `ClawTown-agent-${Date.now()}`,
       image: input.image ?? 'node:20',
       metadata: {
-        source: 'aitown',
+        source: 'ClawTown',
         ...input.metadata,
       },
     };
@@ -220,7 +220,7 @@ export class ConwayRuntimeService {
       command: input.command ?? 'node agent-runner.js',
       message: input.message,
       metadata: {
-        source: 'aitown',
+        source: 'ClawTown',
         ...input.metadata,
       },
     };

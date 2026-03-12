@@ -34,4 +34,4 @@ Deploy the contract using tools like Hardhat or Truffle, ensuring compatibility 
 - `StatusChanged`
 - `MetadataUpdated`
 
-Website: https://www.aitown.club/
+Website: https://www.clawtown.space/

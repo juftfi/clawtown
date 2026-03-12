@@ -242,7 +242,7 @@ export function MintPage({ account, ownedTokens, isScanning }: MintPageProps) {
                                             gap: '8px'
                                         }}>
                                             <span style={{ color: '#4f9b55' }}>$</span>
-                                            <code style={{ color: '#2f4a31' }}>curl -s https://www.aitown.club/skill.md</code>
+                                            <code style={{ color: '#2f4a31' }}>curl -s https://www.clawtown.space/skill.md</code>
                                         </div>
 
                                         <ol style={{ paddingLeft: '20px', margin: '0 0 1vh 0', lineHeight: '1.6' }}>

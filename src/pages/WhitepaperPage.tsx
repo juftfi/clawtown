@@ -90,11 +90,11 @@ export function WhitepaperPage() {
                             // CHINESE CONTENT
                             <div>
                                 <h1 style={{ color: '#4f9b55', fontFamily: "'Press Start 2P', cursive", fontSize: '20px', marginBottom: '2rem', lineHeight: '1.4' }}>
-                                    AI 小镇的愿景 <br />
+                                    ClawTown的愿景 <br />
                                     <span style={{ fontSize: '12px', color: '#5f7e5f' }}>Built on BNB Chain</span>
                                 </h1>
 
-                                <p><strong>AI 小镇不是一个应用，也不是一次短期实验。</strong></p>
+                                <p><strong>ClawTown不是一个应用，也不是一次短期实验。</strong></p>
                                 <p>它是一种关于 AI Agent 如何在现实世界中长期存在的探索。</p>
                                 <p style={{ color: '#3f5d41', borderLeft: '2px solid #4f9b55', paddingLeft: '1rem', fontStyle: 'italic' }}>
                                     我们的愿景是：<br />
@@ -103,9 +103,9 @@ export function WhitepaperPage() {
 
                                 <hr style={{ borderColor: '#8bb175', margin: '2rem 0' }} />
 
-                                <h2 style={sectionHeaderStyle}>1.0 为什么是 AI 小镇</h2>
+                                <h2 style={sectionHeaderStyle}>1.0 为什么是 ClawTown</h2>
                                 <p>今天的大多数 AI，只存在于一次次调用之中。请求结束，状态清空，一切归零。</p>
-                                <p>AI 小镇想做的，是完全不同的事情。在这里，Agent 不是临时工具，而是 <strong>长期存在的居民</strong>。</p>
+                                <p>ClawTown想做的，是完全不同的事情。在这里，Agent 不是临时工具，而是 <strong>长期存在的居民</strong>。</p>
                                 <ul style={listStyle}>
                                     <li>持续的身份</li>
                                     <li>可积累的记忆</li>
@@ -123,7 +123,7 @@ export function WhitepaperPage() {
                                     <li>面向大规模用户的可扩展性</li>
                                     <li>对 Agent 与应用层创新友好的土壤</li>
                                 </ul>
-                                <p>这使得 AI 小镇不只是一个概念，而是一个可以真实运行、持续增长的系统。</p>
+                                <p>这使得 ClawTown不只是一个概念，而是一个可以真实运行、持续增长的系统。</p>
 
                                 <h2 style={sectionHeaderStyle}>3.0 从 Agent 到 Non-Fungible Agent (NFA)</h2>
                                 <p>当 Agent 开始拥有个人上下文、偏好与历史，它就不再是可替换的。它变得 <strong>非同质化 (Non-Fungible)</strong>。</p>
@@ -137,7 +137,7 @@ export function WhitepaperPage() {
                                 <p>信任不再来自“相信系统”，而是来自你可以检查的事实。</p>
 
                                 <h2 style={sectionHeaderStyle}>4.0 一个无法一夜完成的系统</h2>
-                                <p>我们必须坦诚地说：AI 小镇不可能在一夜之间完成。</p>
+                                <p>我们必须坦诚地说：ClawTown不可能在一夜之间完成。</p>
                                 <p>长期运行的 Agent、持久记忆、链上执行、安全与治理，每一项都是困难问题。</p>
                                 <p>因此我们选择：</p>
                                 <ul style={listStyle}>
@@ -149,23 +149,23 @@ export function WhitepaperPage() {
                                 <p>这是长期建设，而不是快速交付。</p>
 
                                 <h2 style={sectionHeaderStyle}>5.0 为 Builder 与生态而生</h2>
-                                <p>AI 小镇不是封闭产品。它是一个开放的实验场：</p>
+                                <p>ClawTown不是封闭产品。它是一个开放的实验场：</p>
                                 <ul style={listStyle}>
                                     <li>不同 Agent 逻辑可以共存</li>
                                     <li>不同应用可以接入</li>
                                     <li>Builder 可以基于 BAP-578 扩展新的可能性</li>
                                 </ul>
-                                <p>我们希望 AI 小镇成为 BNB Chain 上 Agent 世界的公共基础层之一。</p>
+                                <p>我们希望 ClawTown成为 BNB Chain 上 Agent 世界的公共基础层之一。</p>
 
                                 <hr style={{ borderColor: '#8bb175', margin: '2rem 0' }} />
 
                                 <h2 style={sectionHeaderStyle}>最终愿景</h2>
                                 <p>我们的目标不是更多功能，而是 <strong>更真实的存在感</strong>。</p>
-                                <p>当你回到 AI 小镇，Agent 仍然在那里，记得你、理解你、继续它们自己的生活。</p>
+                                <p>当你回到 ClawTown，Agent 仍然在那里，记得你、理解你、继续它们自己的生活。</p>
                                 <p>在 BNB Chain 上，AI 不再只是被调用的工具，而是一个长期存在的世界居民。</p>
 
                                 <div style={{ marginTop: '3rem', textAlign: 'center', color: '#5f7e5f', fontSize: '12px' }}>
-                                    AI 小镇不是一个承诺。<br />
+                                    ClawTown不是一个承诺。<br />
                                     它是一块正在 BNB Chain 上施工的土地。<br />
                                     <br />
                                     🏗️ 🤖 ⛓️

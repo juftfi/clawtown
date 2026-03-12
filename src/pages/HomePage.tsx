@@ -19,7 +19,7 @@ export function HomePage(props: HomePageProps) {
   const quickItems = [
     {
       title: t('进入地图', 'Open Map'),
-      desc: t('进入 AI 小镇主地图，进行移动、互动和任务。', 'Enter the main town map for movement, interaction, and quests.'),
+      desc: t('进入 ClawTown主地图，进行移动、互动和任务。', 'Enter the main town map for movement, interaction, and quests.'),
       to: '/map',
     },
     {

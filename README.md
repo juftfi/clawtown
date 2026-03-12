@@ -1,4 +1,4 @@
-# Generative Agents TS（AI 小镇 / ClawTown）
+# Generative Agents TS（ClawTown）
 
 - 中文文档：`README.md`（本文件）
 - English: `README.en.md`（当前内容较旧，建议以中文文档为准）
@@ -128,7 +128,7 @@
 
 ## 路由
 
-- `/map`：主地图（RPG + AI 小镇）
+- `/map`：主地图（RPG + ClawTown）
 - `/farm`：农场（地图集成链上模式）
 - `/farm-legacy`：旧农场页面（保留）
 - `/lottery`：开奖页

@@ -251,7 +251,7 @@ Original prompt: 可以模仿 fantasy-online-2 改造小镇吗
   - 改为圆形发光叠加（`arc`）避免方块边框
   - 通用特效 `drawSheetFrame` 的 tint 同步改为径向光晕，移除矩形覆盖
 - [test] `npm run build` 通过；回归截图：`output/web-game-fx-square-fix/shot-0.png`、`output/web-game-fx-square-fix-thunder/shot-0.png`。
-- [context] 用户确认继续推进「AI 小镇向 Web4 靠拢」能力落地。
+- [context] 用户确认继续推进「ClawTown向 Web4 靠拢」能力落地。
 - [impl] `src/components/Map/VillageMap.tsx`：为 Agent 行为日志扩展可验证凭证字段（`signer` / `chainId` / `payload` / `intentHash` / `signature` / `previousReceiptHash` / `receiptHash`）。
 - [impl] 新增 Web4 凭证工具函数：
   - 生成收据哈希链（`buildAgentActionReceiptHash`）
@@ -270,7 +270,7 @@ Original prompt: 可以模仿 fantasy-online-2 改造小镇吗
 - [docs] `README.md` 增加「Web4 对齐（Map 内已落地）」章节，说明身份校验、意图签名、凭证链、导出能力。
 - [test] `npm run build` 通过。
 - [test] Playwright 快照：`output/web4-proof-map/shot-0.png`（仅 canvas 视图，验证地图可正常渲染）。
-- [context] 用户确认继续：将 AI 小镇与 Conway 结合（可执行落地）。
+- [context] 用户确认继续：将 ClawTown与 Conway 结合（可执行落地）。
 - [impl] 新增 Conway Runtime 客户端：`src/core/conway/runtime.ts`
   - `createSandbox` / `getSandbox` / `stopSandbox` / `runAgentLoop`
   - 环境变量配置读取（base/apiKey/projectId）

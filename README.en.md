@@ -1,6 +1,6 @@
-# Generative Agents TS (AI Town)
+# Generative Agents TS (Claw Town)
 
-This project is a TypeScript + React + Vite rewrite of **Generative Agents / AI Town**.
+This project is a TypeScript + React + Vite rewrite of **Generative Agents / Claw Town**.
 
 Goals:
 - A browser-runnable **minimal viable simulation (MVP)**

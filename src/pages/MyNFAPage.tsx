@@ -458,7 +458,7 @@ node --loader ts-node/esm scripts/agent-runner.ts`;
                 owner: account
             },
             personality: {
-                bio: "A digital entity living in AI Town.",
+                bio: "A digital entity living in Claw Town.",
                 traits: ["Unknown"],
                 voice: "default"
             }

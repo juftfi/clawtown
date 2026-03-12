@@ -83,7 +83,7 @@ export function MintPage({ account, ownedTokens, isScanning }: MintPageProps) {
                 owner: account
             },
             personality: {
-                bio: "A digital entity living in AI Town.",
+                bio: "A digital entity living in Claw Town.",
                 traits: ["Unknown"],
                 voice: "default"
             }
@@ -151,7 +151,7 @@ export function MintPage({ account, ownedTokens, isScanning }: MintPageProps) {
                             <div className="desktop-only">//</div>
                             <div className="desktop-only">GENESIS MINT</div>
                             <div className="desktop-only">//</div>
-                            <div className="desktop-only">{t('AI小镇', 'AI Town')}</div>
+                            <div className="desktop-only">{t('AI小镇', 'Claw Town')}</div>
                         </div>
 
                         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
@@ -247,7 +247,7 @@ export function MintPage({ account, ownedTokens, isScanning }: MintPageProps) {
 
                                         <ol style={{ paddingLeft: '20px', margin: '0 0 1vh 0', lineHeight: '1.6' }}>
                                             <li>Send this URL to your agent</li>
-                                            <li>{t('钱包里必须拥有 10000个 $AI小镇，free mint', 'Wallet must hold 10000 $AI Town token for free mint')}</li>
+                                            <li>{t('钱包里必须拥有 10000个 $AI小镇，free mint', 'Wallet must hold 10000 $Claw Town token for free mint')}</li>
                                             <li>Agent receives & signs the transaction</li>
                                         </ol>
 

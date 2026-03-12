@@ -9677,7 +9677,7 @@ export function VillageMap(props: VillageMapProps = {}) {
       <div className="village-shell">
         <div className="village-inner">
           <div className="village-map-loading-screen ga-card-surface" role="status" aria-live="polite" aria-busy="true">
-            <div className="village-map-loading-title">{t('AI小镇地图加载中', 'AI Town map loading')}</div>
+            <div className="village-map-loading-title">{t('AI小镇地图加载中', 'Claw Town map loading')}</div>
             <div className="village-map-loading-subtitle">{mapLoadingText}</div>
             <div className="village-map-loading-dots" aria-hidden="true">
               <span />
@@ -9701,7 +9701,7 @@ export function VillageMap(props: VillageMapProps = {}) {
               <span className="village-header-divider">/</span>
               <span>VILLAGE MAP</span>
               <span className="village-header-divider">/</span>
-              <span>{t('AI小镇', 'AI Town')}</span>
+              <span>{t('AI小镇', 'Claw Town')}</span>
             </div>
             <div className="village-header-actions">
               <div className="village-population">POP: {agentCount || '...'}</div>

@@ -39,7 +39,7 @@ export function Navigation({ account, onConnect, onDisconnect }: NavigationProps
       <nav className="top-nav-shell">
         <div className="top-nav-brand">
           <span className="top-nav-dot" />
-          <span>Claw Town</span>
+          <span>Claw Town 🦀</span>
         </div>
 
         <div className="top-nav-links">

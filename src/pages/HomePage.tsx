@@ -42,7 +42,7 @@ export function HomePage(props: HomePageProps) {
           <span className="ga-chip">{t('地图 · 合约 · Agent', 'Map · Contract · Agent')}</span>
         </div>
         <h1>Claw Town / Conway</h1>
-        <h3>CA: 0xfa44faa08df72c259c53e552c460129d0f78ffff</h3>
+        <h3>CA: ffff</h3>
         <p>
           {t(
             '首页采用 Conway 主线：先看全局状态，再进入地图执行与验证。减少信息噪音，只保留关键操作。',

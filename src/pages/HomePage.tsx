@@ -41,8 +41,8 @@ export function HomePage(props: HomePageProps) {
           <span className="ga-chip">{t('Conway 模式', 'Conway Mode')}</span>
           <span className="ga-chip">{t('地图 · 合约 · Agent', 'Map · Contract · Agent')}</span>
         </div>
-        <h1>ClawTown</h1>
-        <h3>CA: B5cUHenzFw5iTSxDYDLqR2sJJGKoGb7VodvtNrZqpump</h3>
+        <h1>$TOWN</h1>
+        <h3>CA: pump</h3>
         <p>
           {t(
             '首页采用 Conway 主线：先看全局状态，再进入地图执行与验证。减少信息噪音，只保留关键操作。',
